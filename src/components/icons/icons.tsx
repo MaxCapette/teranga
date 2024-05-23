@@ -27,14 +27,14 @@ export default function Icons() {
                     croissance et l&apos;innovation de votre entreprise.
                 </p>
             </div>
-              <div className="space-y-3">
+            <div className="space-y-3">
                 <ServerIcon className="h-8 w-8 text-primary-400" />
                 <h3 className="text-lg font-semibold text-black">Intégration de systèmes informatiques</h3>
                 <p className="text-gray-400">
-                  Nous intégrons de manière transparente vos systèmes et infrastructures informatiques pour améliorer
-                  l'efficacité et la productivité.
+                    Nous intégrons de manière transparente vos systèmes et infrastructures informatiques pour améliorer
+                    l&apos;efficacité et la productivité.
                 </p>
-              </div>
+            </div>
               <div className="space-y-3">
                 <PuzzleIcon className="h-8 w-8 text-primary-400" />
                 <h3 className="text-lg font-semibold text-black">Services de conseil</h3>
