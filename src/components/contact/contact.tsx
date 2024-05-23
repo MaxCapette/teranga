@@ -1,7 +1,7 @@
 // pages/contact.tsx
 "use client";
 import React from 'react';
-import FormContact from './FormContact';
+import FormContact from './formcontact';
 import "./contact.css";
 
 const ContactPage: React.FC = () => {
