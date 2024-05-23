@@ -1,0 +1,55 @@
+header {
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    position: fixed;
+    top: 7%;
+    /* Position à 50% du haut */
+    left: 50%;
+    /* Position à 50% de la gauche */
+    transform: translate(-50%, -50%);
+    /* @media screen and (min-width: 1155px) {
+        background-color: var(--bg-0);
+    } */
+    background-color: var(--bg-0);
+    opacity: 0.9;
+    z-index: 1;
+}
+
+
+
+
+
+.headerNav {
+    height: 60px;
+}
+/* CSS pour styliser le nom de la société dans le header */
+.header {
+    background-color: #333; /* Couleur de fond du header */
+    padding: 20px; /* Espace autour du contenu dans le header */
+    text-align: center; /* Centrer le texte dans le header */
+}
+
+.company-name {
+    font-family: 'Arial', sans-serif; /* Police de caractères */
+    font-size: 36px; /* Taille de la police */
+    font-weight: bold; /* Texte en gras */
+    color: #f8b400; /* Couleur du texte (ici, un jaune doré) */
+    text-transform: uppercase; /* Convertir le texte en majuscules */
+    letter-spacing: 2px; /* Espacement entre les lettres */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre portée pour le texte */
+    margin: 0; /* Supprimer les marges par défaut */
+}
+
+/* Ajout de réactivité pour différents appareils */
+@media (max-width: 768px) {
+    .company-name {
+        font-size: 28px; /* Taille de la police plus petite pour les tablettes */
+    }
+}
+
+@media (max-width: 480px) {
+    .company-name {
+        font-size: 24px; /* Taille de la police encore plus petite pour les smartphones */
+    }
+}

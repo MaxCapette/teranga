@@ -1,0 +1,29 @@
+.footerSocial {
+   display: flex;
+
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    @media screen and (max-width: 500px) {
+        flex-direction: column; 
+    }
+
+}
+.footerAside {
+    display: flex;
+    align-items: center;
+
+}
+a img {
+    color: var(--color-0);
+    text-decoration: none;
+    color:#0F0F0F
+}
+.hashtag {
+   margin: 5px;
+}
