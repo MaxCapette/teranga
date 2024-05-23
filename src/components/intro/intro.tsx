@@ -4,6 +4,7 @@ import "./intro.css";
 
 export default function Intro() {
     return (
+      <section className="bg-gray-800 py-12 md:py-20 lg:py-24">
       <div className="intro">
       <Image src="/images/introia.png" alt="Intelligence Artificielle" width={512} height={512} className="introImage" />
       <div className="introText">
@@ -16,6 +17,6 @@ export default function Intro() {
         <a href="#services" className="ctaButton">Découvrez nos services</a>
       </div>
     </div>
-
+</section>
     );
 }
