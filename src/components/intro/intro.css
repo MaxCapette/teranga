@@ -16,13 +16,14 @@
   }
   
   
-  
+
   .description {
     font-family: 'Arial', sans-serif;
     font-size: 18px;
     color: white;
     margin: 0 0 30px 0;
     line-height: 1.6;
+    
   }
   
   .ctaButton {
