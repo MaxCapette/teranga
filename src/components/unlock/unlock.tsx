@@ -1,8 +1,8 @@
 import Image from "next/image";
-
+import "./unlock.css";
 export default function Unlock() {
     return (
-    <section className="bg-gray-800 py-12 md:py-20 lg:py-24">
+    <section className="bg-gray-800 py-12 md:py-20 lg:py-24 unlock">
 <div className="container mx-auto px-4 md:px-6 lg:px-8">
   <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
     <div className="space-y-4">

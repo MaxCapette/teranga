@@ -97,3 +97,12 @@ form {
     font-size: 24px; /* Taille de la police */
     font-weight: bold; /* Gras */
   }
+  label {
+    color: white;;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }

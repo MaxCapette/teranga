@@ -5,7 +5,7 @@ import "./contact.css";
 
 const ContactPage: React.FC = () => {
     return (
-        <section className="bg-gray-800 py-12 md:py-20 lg:py-24">
+        <section className="bg-gray-800 py-12 md:py-20 lg:py-24 contact">
         <div className="container space-y-4" id="contact">
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl ">Contactez-nous</h2>
             <p className="text-gray-100 md:text-lg lg:text-xl">
