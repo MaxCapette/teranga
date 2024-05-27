@@ -17,7 +17,7 @@ export default function About() {
               comprendre leurs défis uniques et les aider à atteindre leurs objectifs stratégiques.
             </p>
           </div>
-          <Image src="/images/about.png" alt="Intelligence Artificielle" width={512} height={512} className="introImage" />
+          <Image src="/images/about.png" alt="Intelligence Artificielle" width={512} height={512} className="aboutImage" />
         </section>
 
     );

@@ -5,7 +5,7 @@ import "./services.css";
 export default function Services() {
     return (
       <section className="services" id="services">
-        <Image src="/images/services.png" alt="Intelligence Artificielle" width={512} height={512} className="introImage" />
+        <Image src="/images/services.png" alt="Intelligence Artificielle" width={512} height={512} className="servicesImage" />
       <div className="servicesContent">
         <h2 className="servicesTitle">Nos Services</h2>
         <p className="servicesDescription">
