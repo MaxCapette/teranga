@@ -6,6 +6,8 @@ export default function Footer() {
       <aside className="footerAside">
        
         <p>Copyright Teranga Consulting 2024</p>
+        <p>contact@teranga-consulting.fr</p>
+        <p>01 85 41 01 77</p>
       </aside>
       
     </footer>
