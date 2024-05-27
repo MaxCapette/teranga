@@ -5,7 +5,8 @@ export default function Footer() {
     <footer className="footer p-10 bg-neutral text-neutral-content">
       <aside className="footerAside">
        
-        <p>Copyright Teranga Consulting 2024</p>
+        <p>Copyright Teranga Consulting 2022</p>
+        <p>19 AVENUE DE NORVEGE 91140 VILLEBON-SUR-YVETTE</p>
         <p>contact@teranga-consulting.fr</p>
         <p>01 85 41 01 77</p>
       </aside>
