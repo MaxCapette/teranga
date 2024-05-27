@@ -20,7 +20,7 @@ const FormContact: React.FC = () => {
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
       <button type="submit" disabled={state.submitting}>
-        Submit
+        Envoyer
       </button>
 
       {state.succeeded && <p>Merci!</p>}
