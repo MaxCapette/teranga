@@ -22,7 +22,6 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        {/* Autres balises dans Head */}
       </Head>
       <body className={inter.className}>
         <Header/>
