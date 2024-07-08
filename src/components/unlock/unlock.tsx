@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import "./unlock.css";
 export default function Unlock() {
@@ -16,7 +17,7 @@ export default function Unlock() {
         
     </div>
     <div>
-      <Image
+      <img
         alt="Image d'accueil"
         className="mx-auto rounded-lg"
         height="400"
