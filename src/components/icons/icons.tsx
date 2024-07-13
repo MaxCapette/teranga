@@ -13,7 +13,7 @@ export default function Icons() {
 
             <div className="space-y-3">
                 <CogIcon className="h-8 w-8 text-primary-400" />
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Développement de logiciels</h3>
+                <h3 className="text-lg font-semibold text-gray-900 ">Développement de logiciels</h3>
                 <p className="text-gray-400">
                     Notre équipe de développeurs expérimentés crée des solutions logicielles sur mesure adaptées aux
                     besoins de votre entreprise.
